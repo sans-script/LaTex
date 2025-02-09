@@ -1,0 +1,282 @@
+\documentclass[a4paper,12pt]{article}  % Classe do documento
+
+\input{preamble}
+
+\begin{document}
+
+
+
+\section{Conjuntos Numéricos}
+
+Os conjuntos numéricos constituem uma das fundações da matemática, formando a base sobre a qual diversas estruturas numéricas e teorias são edificadas. Eles representam coleções de números que compartilham características comuns e são categorizados de acordo com suas propriedades. Por exemplo, os números naturais são utilizados para contagem, enquanto os números inteiros incluem tanto positivos quanto negativos, e os números racionais são expressos como frações. Além disso, os conjuntos numéricos permitem a análise e a resolução de problemas matemáticos complexos, sendo essenciais para áreas como álgebra, cálculo e teoria dos números
+
+\section{Interpretação de Símbolos de Conjuntos}
+
+Os símbolos utilizados para descrever conjuntos numéricos são essenciais para a compreensão de conceitos matemáticos. Abaixo, apresentamos esses símbolos em forma de tabela:
+
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{\textwidth}{|c|X|}
+        \hline
+        \textbf{Símbolo}      & \textbf{Como se lê}             \\
+        \hline
+        \( \{ \} \)           & conjunto                        \\
+        \( \in \)             & pertence a                      \\
+        \( \notin \)          & não pertence a                  \\
+        \( \subseteq \)       & é um subconjunto de             \\
+        \( \subset \)         & é um subconjunto próprio de     \\
+        \( \supseteq \)       & contém como subconjunto         \\
+        \( \supset \)         & contém como subconjunto próprio \\
+        \( \varnothing \)     & conjunto vazio                  \\
+        \( \cup \)            & união                           \\
+        \( \cap \)            & interseção                      \\
+        \( - \)               & diferença (ou complementar)     \\
+        \( \mid \) ou \( : \) & tal que                         \\
+        \( \mathbb{N} \)      & conjunto dos números naturais   \\
+        \( \mathbb{Z} \)      & conjunto dos números inteiros   \\
+        \( \mathbb{Q} \)      & conjunto dos números racionais  \\
+        \( \mathbb{R} \)      & conjunto dos números reais      \\
+        \( \mathbb{C} \)      & conjunto dos números complexos  \\
+        \( \forall \)         & para todo                       \\
+        \( \exists \)         & existe                          \\
+        \( \neg \)            & não                             \\
+        \( \land \)           & e                               \\
+        \( \lor \)            & ou                              \\
+        \( \Rightarrow \)     & implica                         \\
+        \( \Leftrightarrow \) & se e somente se                 \\
+        \( < \)               & menor que                       \\
+        \( \leq \)            & menor ou igual a                \\
+        \( > \)               & maior que                       \\
+        \( \geq \)            & maior ou igual a                \\
+        \( \infty \)          & infinito                        \\
+        \( \neq \)            & diferente de                    \\
+        \( \approx \)         & aproximadamente igual a         \\
+        \( \equiv \)          & identicamente igual a           \\
+        \hline
+    \end{tabularx}
+    \caption{Interpretação de símbolos de conjuntos}
+\end{table}
+
+
+\subsection{Conjunto dos Números Naturais}
+O conjunto dos números naturais é denotado por \( \mathbb{N} \) e é composto por todos os números inteiros não negativos, utilizados predominantemente para contagem e ordenação de objetos.
+
+\begin{itemize}
+    \item \textbf{Notação}: \( \mathbb{N} = \{0, 1, 2, 3, \ldots\} \)
+    \item \textbf{Propriedades}:
+          \begin{itemize}
+              \item Inclui o zero, dependendo da definição utilizada (em algumas interpretações, o conjunto começa em 1).
+              \item É um subconjunto dos números inteiros, o que implica que todos os números naturais são, por definição, números inteiros.
+              \item É fechado sob as operações de adição e multiplicação, significando que a soma ou o produto de quaisquer dois números naturais resulta em um número natural.
+          \end{itemize}
+\end{itemize}
+
+\subsection{Conjunto dos Números Inteiros}
+O conjunto dos números inteiros é denotado por \( \mathbb{Z} \) e se expande ao conjunto dos números naturais ao incluir os números negativos.
+
+\begin{itemize}
+    \item \textbf{Notação}: \( \mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\} \)
+    \item \textbf{Propriedades}:
+          \begin{itemize}
+              \item Abrange todos os números naturais e seus correspondentes negativos, formando um sistema numérico que permite a inclusão de operações de subtração.
+              \item Não inclui frações ou números decimais, sendo restrito a inteiros.
+              \item É fechado sob as operações de adição, subtração e multiplicação, mas não é fechado sob a divisão (por exemplo, \( 1 \div 2 \) não resulta em um número inteiro).
+          \end{itemize}
+\end{itemize}
+
+\subsection{Conjunto dos Números Racionais}
+Os números racionais são aqueles que podem ser expressos como a razão de dois inteiros, onde o denominador não é zero.
+
+\begin{itemize}
+    \item \textbf{Notação}: \( \mathbb{Q} = \left\{ \frac{a}{b} \mid a \in \mathbb{Z}, b \in \mathbb{Z}^*, b \neq 0 \right\} \)
+    \item \textbf{Propriedades}:
+          \begin{itemize}
+              \item Inclui números inteiros (por exemplo, o número 2 pode ser representado como \( \frac{2}{1} \)).
+              \item Compreende números que podem ser expressos como frações, abrangendo também decimais que terminam ou que se repetem periodicamente.
+              \item É fechado sob adição, subtração, multiplicação e divisão (desde que o divisor seja diferente de zero).
+          \end{itemize}
+\end{itemize}
+
+\subsection{Conjunto dos Números Irracionais}
+Os números irracionais são aqueles que não podem ser expressos como uma fração de dois inteiros, caracterizando-se por suas representações decimais não periódicas e infinitas.
+
+\begin{itemize}
+    \item \textbf{Exemplos}: \( \sqrt{2}, \pi, e \) (a base do logaritmo natural).
+    \item \textbf{Propriedades}:
+          \begin{itemize}
+              \item Não estão incluídos no conjunto dos números racionais, ou seja, não podem ser expressos como uma razão de inteiros.
+              \item Formam um conjunto denso nos números reais, o que significa que, entre quaisquer dois números racionais, existe sempre pelo menos um número irracional.
+          \end{itemize}
+\end{itemize}
+
+\section{Operações com Conjuntos Numéricos}
+As operações entre os conjuntos numéricos respeitam certas propriedades de fechamento. A seguir, são apresentadas algumas operações comuns e suas respectivas propriedades.
+
+\subsection{Adição e Subtração}
+\begin{itemize}
+    \item Para \( a, b \in \mathbb{N} \): \( a + b \in \mathbb{N} \) e \( a - b \) pode não ser um número natural (por exemplo, \( 1 - 2 = -1 \) não pertence a \( \mathbb{N} \)).
+    \item Para \( a, b \in \mathbb{Z} \): tanto \( a + b \in \mathbb{Z} \) quanto \( a - b \in \mathbb{Z} \).
+    \item Para \( a, b \in \mathbb{Q} \): \( a + b \in \mathbb{Q} \) e \( a - b \in \mathbb{Q} \).
+\end{itemize}
+
+\subsection{Multiplicação}
+\begin{itemize}
+    \item Para \( a, b \in \mathbb{N} \): \( a \cdot b \in \mathbb{N} \).
+    \item Para \( a, b \in \mathbb{Z} \): \( a \cdot b \in \mathbb{Z} \).
+    \item Para \( a, b \in \mathbb{Q} \): \( a \cdot b \in \mathbb{Q} \).
+\end{itemize}
+
+\subsection{Divisão}
+\begin{itemize}
+    \item Para \( a, b \in \mathbb{N} \): \( a \div b \) não é necessariamente um número natural (por exemplo, \( 1 \div 2 \) não pertence a \( \mathbb{N} \)).
+    \item Para \( a, b \in \mathbb{Z} \): \( a \div b \) pode não resultar em um número inteiro (por exemplo, \( 1 \div 2 = 0.5 \)).
+    \item Para \( a, b \in \mathbb{Q} \): \( a \div b \in \mathbb{Q} \) (desde que \( b \neq 0 \)).
+\end{itemize}
+
+\subsection{Propriedades Aritméticas}
+
+As operações aritméticas obedecem a diversas propriedades importantes, que incluem:
+
+\begin{enumerate}[label=\arabic*.] % Números para os principais itens
+    \item Associatividade:
+          \begin{enumerate}[label=\alph*)] % Letras para os subitens
+              \item \( (a + b) + c = a + (b + c) \)
+              \item \( (a \cdot b) \cdot c = a \cdot (b \cdot c) \)
+          \end{enumerate}
+    \item Comutatividade:
+          \begin{enumerate}[label=\alph*)]
+              \item \( a + b = b + a \)
+              \item \( a \cdot b = b \cdot a \)
+          \end{enumerate}
+    \item Distributividade:
+          \begin{enumerate}[label=\alph*)]
+              \item \( a \cdot (b + c) = a \cdot b + a \cdot c \)
+          \end{enumerate}
+\end{enumerate}
+
+\section{Decomposição em Frações Parciais}
+
+A decomposição em frações parciais é uma técnica que permite reescrever frações que têm polinômios no denominador (parte de baixo) como a soma de frações mais simples. Esse método é muito útil em cálculos de integrais e em outras áreas da matemática.
+Imagine que temos uma fração como esta:
+\[
+\frac{3x + 1}{(x+1)(2x-1)}.
+\]
+O objetivo é dividir essa fração em partes mais simples, como:
+\[
+\frac{3x + 1}{(x+1)(2x-1)} = \frac{A}{x+1} + \frac{B}{2x-1},
+\]
+onde \( A \) e \( B \) são valores que vamos determinar. Vamos aos passos!
+
+\subsection{Passo 1: Multiplicar para eliminar os denominadores}
+
+Multiplicamos ambos os lados da equação pelo denominador completo \( (x+1)(2x-1) \):
+\[
+3x + 1 = A(2x - 1) + B(x + 1).
+\]
+Aqui, a ideia é que os denominadores desapareçam, deixando apenas os numeradores para trabalharmos.
+
+\subsection{Passo 2: Expandir e organizar os termos}
+
+Expandimos os termos do lado direito:
+\[
+A(2x - 1) = 2Ax - A, \quad \text{e} \quad B(x + 1) = Bx + B.
+\]
+Somando tudo, temos:
+\[
+3x + 1 = 2Ax - A + Bx + B.
+\]
+Agora, agrupamos os termos que têm \( x \) e os números sozinhos (constantes):
+\[
+3x + 1 = (2A + B)x + (-A + B).
+\]
+
+\subsection{Passo 3: Comparar os coeficientes}
+
+Nesta etapa, comparamos os coeficientes (os números que multiplicam \( x \) e os números constantes) de ambos os lados. Isso nos dá um sistema de equações:
+\begin{align*}
+2A + B & = 3, \\
+-B - A & = 1.
+\end{align*}
+
+\subsection{Passo 4: Resolver o sistema de equações}
+
+Agora, resolvemos esse sistema para encontrar \( A \) e \( B \).
+
+1. Da primeira equação \( 2A + B = 3 \), isolamos \( B \):
+\[
+B = 3 - 2A.
+\]
+
+2. Substituímos \( B = 3 - 2A \) na segunda equação \( -B - A = 1 \):
+\[
+-(3 - 2A) - A = 1.
+\]
+Resolvendo:
+\[
+-3 + 2A - A = 1 \quad \Rightarrow \quad -3 + A = 1 \quad \Rightarrow \quad A = 4.
+\]
+
+3. Substituímos \( A = 4 \) de volta em \( B = 3 - 2A \):
+\[
+B = 3 - 2 \cdot 4 = 3 - 8 = -5.
+\]
+
+\subsection{Passo 5: Reescrever a fração original}
+
+Agora que sabemos os valores de \( A \) e \( B \), podemos reescrever a fração original:
+\[
+\frac{3x + 1}{(x+1)(2x-1)} = \frac{4}{x+1} - \frac{5}{2x-1}.
+\]
+
+Essa forma é muito mais fácil de trabalhar, especialmente em integrais!
+
+\subsection{Outros Casos de Decomposição}
+
+Vamos explorar outros tipos de frações e como lidar com elas.
+
+\subsubsection{Fatores Repetidos}
+
+Quando o denominador tem fatores repetidos, como \( \frac{1}{(x-1)^2} \), a decomposição inclui todos os fatores até a potência mais alta. Por exemplo:
+\[
+\frac{1}{(x-1)^2} = \frac{A}{x-1} + \frac{B}{(x-1)^2}.
+\]
+
+\subsubsection{Fatores Quadráticos}
+
+Se o denominador tiver um fator quadrático irreduzível, como \( x^2 + bx + c \) (e \( \Delta < 0 \)), usamos numeradores na forma \( Ax + B \). Por exemplo:
+\[
+\frac{1}{x^2 + 1} = \frac{Ax + B}{x^2 + 1}.
+\]
+
+\subsubsection{Fatores Quadráticos Repetidos}
+
+Se o denominador tem fatores quadráticos repetidos, como \( \frac{1}{(x^2+1)^2} \), a decomposição será:
+\[
+\frac{1}{(x^2+1)^2} = \frac{Ax + B}{x^2 + 1} + \frac{Cx + D}{(x^2 + 1)^2}.
+\]
+
+\subsection{Exercícios Resolvidos}
+
+\paragraph{Exemplo 1.} Decomponha \( \frac{2}{(x-1)^2} \):
+\[
+\frac{2}{(x-1)^2} = \frac{A}{x-1} + \frac{B}{(x-1)^2}.
+\]
+Multiplicando por \( (x-1)^2 \):
+\[
+2 = A(x-1) + B.
+\]
+Expandindo:
+\[
+2 = Ax - A + B.
+\]
+Comparando os coeficientes:
+\begin{align*}
+A & = 0, \\
+B & = 2.
+\end{align*}
+Portanto:
+\[
+\frac{2}{(x-1)^2} = \frac{0}{x-1} + \frac{2}{(x-1)^2} = \frac{2}{(x-1)^2}.
+\]
+
+\end{document}

@@ -1,0 +1,35 @@
+\usepackage[utf8]{inputenc}            % Codificação do documento
+\usepackage[T1]{fontenc}               % Encodings para caracteres especiais
+\usepackage[brazil]{babel}             % Idioma do documento
+\usepackage{geometry}                  % Para ajustar margens
+\usepackage{graphicx}                  % Para incluir imagens
+\usepackage{amsmath, amsfonts, amsthm, amssymb} % Para símbolos matemáticos
+\usepackage{fancyhdr}                  % Para cabeçalhos e rodapés
+\usepackage[dvipsnames]{xcolor}        % Para cores
+\usepackage{thmtools}                  % Para definições de teoremas
+\usepackage{titlesec}                  % Para personalizar títulos de seções
+\usepackage{booktabs}                  % Adicione isso no preâmbulo
+\usepackage{tabularx}                  % Para tabelas com largura ajustável
+\usepackage{mathptmx}                  % Para usar Times New Roman
+\usepackage{enumitem} % Para personalizar a lista
+\usepackage{cancel} % Para cancelar termos em equações
+
+
+% Configuração das margens
+\geometry{top=2cm, bottom=2cm, left=1cm, right=1cm}
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{0.6em}{}
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{0.3em}{}
+
+\setcounter{secnumdepth}{0}  % Remove a numeração de seções
+
+
+% Configura cabeçalhos e rodapés
+\pagestyle{fancy}
+\fancyhf{} % Limpa cabeçalhos e rodapés
+\fancyhead[R]{Lista de Exercícios - Reações Químicas} % Nome à direita no cabeçalho
+\fancyhead[L]{Alexandre Santos}
+\fancyfoot[R]{\thepage} % Número da página à direita no rodapé
