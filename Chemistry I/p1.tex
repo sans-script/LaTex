@@ -1,0 +1,146 @@
+\documentclass[a4paper, 12pt]{article}
+\input{preamble.tex}
+\fancyhead[R]{Atividade Avaliativa}
+
+\begin{document}
+
+\begin{enumerate}
+    \item Foi solicitado para três estudantes que fizessem medidas de 2,000 gramas de carbonato de cálcio. Os resultados medidos por cada estudante encontram-se abaixo:
+
+          \begin{center}
+              \begin{tabular}{c|c|c}
+                  \hline
+                  \textbf{Estudante 1} & \textbf{Estudante 2} & \textbf{Estudante 3} \\
+                  \hline
+                  1,964g               & 1,972g               & 2,000g               \\
+                  1,978g               & 1,968g               & 2,003g               \\
+                  1,971g               & 1,970g               & 2,008g               \\
+              \end{tabular}
+          \end{center}
+
+          \textcolor{blue}{
+              Para determinar qual estudante foi o mais exato, calculamos a média das medidas de cada estudante e, em seguida, calculamos o erro absoluto em relação ao valor esperado de \textcolor{red}{2,000g}.
+          }
+
+          \textcolor{blue}{
+              \text{Estudante 1:}
+              \[
+                  \textcolor{red}{E_1 = \frac{1,964 + 1,978 + 1,971}{3} = 1,971 \ \text{g}}
+              \]
+              \[
+                  \textcolor{red}{\text{Erro Absoluto}_1 = |1,971 - 2,000| = 0,029 \ \text{g}}
+              \]
+              \text{Estudante 2:}
+              \[
+                  \textcolor{red}{E_2 = \frac{1,972 + 1,968 + 1,970}{3} = 1,970 \ \text{g}}
+              \]
+              \[
+                  \textcolor{red}{\text{Erro Absoluto}_2 = |1,970 - 2,000| = 0,030 \ \text{g}}
+              \]
+              \text{Estudante 3:}
+              \[
+                  \textcolor{red}{E_3 = \frac{2,000 + 2,003 + 2,008}{3} = 2,004 \ \text{g}}
+              \]
+              \[
+                  \textcolor{red}{\text{Erro Absoluto}_3 = |2,004 - 2,000| = 0,004 \ \text{g}}
+              \]
+          }
+
+          \textcolor{blue}{
+              Comparando os erros absolutos com o valor esperado de \textcolor{red}{2,000g}, o Estudante \textcolor{red}{3} foi o mais exato, pois seu erro absoluto é o menor.
+          }
+
+    \item Sobre os números quânticos responda:
+
+          \begin{enumerate}
+              \item[a)] Considere três átomos hipotéticos: A, B e C. Sabe-se que o átomo C é isótopo do átomo B e é isóbaro de A. O átomo A tem massa 48 e o átomo C tem número de nêutrons 28. Sabendo-se que o número de massa de B é 52, qual o conjunto dos quatro números quânticos do elétron diferenciador da espécie \( B^{+3} \)?
+                    \\[2mm]
+                    \textcolor{blue}{
+                        Sabemos que:
+                        \begin{itemize}
+                            \item[] O átomo  \textcolor{red}{C} é isótopo de  \textcolor{red}{B}, ou seja, possuem o mesmo número atômico.
+                            \item[] O átomo  \textcolor{red}{C} é isóbaro de  \textcolor{red}{A}, ou seja, possuem o mesmo número de massa, mas diferem no número de prótons.
+                            \item[] O átomo  \textcolor{red}{A} tem número de massa  \textcolor{red}{48}, logo,  \textcolor{red}{C também tem 48}.
+                            \item[] O átomo  \textcolor{red}{C} tem  \textcolor{red}{28 nêutrons}.
+                            \item[] O número de massa de  \textcolor{red}{B} é  \textcolor{red}{52}.
+                        \end{itemize}
+                        Para encontrar o número atômico de  \textcolor{red}{C} (e consequentemente de  \textcolor{red}{B}, pois são isótopos), utilizamos a relação:
+                        \[
+                            \textcolor{red}{ Z_C = A_C - N_C = 48 - 28 = 20}
+                        \]
+                        Como  \textcolor{red}{B e C são isótopos},  \textcolor{red}{B também tem número atômico \( Z_B = 20 \)}.
+                        Sabemos que o número de prótons em um átomo neutro é igual ao número de elétrons. Assim, um átomo neutro de  \textcolor{red}{B} possui  \textcolor{red}{20 elétrons}.
+                        A configuração eletrônica do átomo  \textcolor{red}{B neutro} é:
+                        \[
+                            \textcolor{red}{1s^2 \ 2s^2 \ 2p^6 \ 3s^2 \ 3p^6 \ 4s^2}
+                        \]
+                        Para a espécie  \textcolor{red}{\( B^{+3} \)}, removemos  \textcolor{red}{três elétrons} da camada mais externa, ou seja:
+                        \begin{itemize}
+                            \item[]  \textcolor{red}{2 elétrons do 4s}
+                            \item[]  \textcolor{red}{1 elétron do 3p}
+                        \end{itemize}
+                        Após a remoção, a configuração eletrônica de  \textcolor{red}{\( B^{+3} \)} fica:
+                        \[
+                            \textcolor{red}{1s^2 \ 2s^2 \ 2p^6 \ 3s^2 \ 3p^5}
+                        \]
+                        Agora, identificamos o elétron diferenciador. No subnível  \textcolor{red}{3p} (\( l = 1 \)), os elétrons ocupam os orbitais seguindo a  \textcolor{red}{Regra de Hund}:
+                        Os três orbitais do \textcolor{red}{3p} têm \textcolor{red}{\( m_l = -1,\ 0,\ +1 \)}. A distribuição correta do  \textcolor{red}{3p\(^5\)} é:
+                        \input{orbital_3p5.tex}
+                        O último elétron adicionado ocupa o orbital de  \textcolor{red}{\( m_l = 0 \)}.
+                        Dessa forma, os números quânticos do elétron diferenciador da espécie  \textcolor{red}{\( B^{+3} \)} são:
+                        \[
+                            \textcolor{red}{ n = 3, \quad l = 1, \quad m_l = 0, \quad m_s = -1/2}
+                        \]
+                    }
+
+              \item[b)] Sabendo-se que o elétron de maior energia de um átomo apresenta o seguinte conjunto dos quatro números quânticos: \( n = 3, \ell = 2, m_\ell = 1, m_s = -1/2 \), quantos elétrons fazem parte do nível de valência desse átomo?
+                    \\[2mm]
+                    \textcolor{blue}{
+                        Sabemos que:
+                        \begin{itemize}
+                            \item[] O elétron de maior energia tem os números quânticos:
+                                  \[
+                                      \textcolor{red}{n = 3, \quad \ell = 2, \quad m_\ell = 1, \quad m_s = -1/2}
+                                  \]
+                                  Isso indica que o elétron está no subnível \textcolor{red}{3d}, pois \textcolor{red}{\(\ell = 2\)} corresponde ao subnível \textcolor{red}{d}.
+                            \item[] O subnível \textcolor{red}{3d} pode acomodar até \textcolor{red}{10 elétrons}, distribuídos em \textcolor{red}{5 orbitais} \textcolor{red}{(\( m_\ell = -2, -1, 0, +1, +2 \))}, cada um com 2 elétrons de spins opostos.
+                            \item[] Como o elétron de maior energia está no subnível \textcolor{red}{3d}, o nível de valência é o terceiro nível \textcolor{red}{(\( n = 3 \))}, que inclui os subníveis \textcolor{red}{3s}, \textcolor{red}{3p} e \textcolor{red}{3d}.
+                            \item[] A configuração eletrônica do átomo, considerando que o elétron de maior energia está no \textcolor{red}{3d}, é:
+                                  \[
+                                      \textcolor{red}{1s^2 \ 2s^2 \ 2p^6 \ 3s^2 \ 3p^6 \ 3d^x}
+                                  \]
+                                  onde \textcolor{red}{\(x\)} é o número de elétrons no subnível \textcolor{red}{3d}.
+                            \item[] Como o elétron de maior energia tem \textcolor{red}{\( m_\ell = 1 \)} e \textcolor{red}{\( m_s = -1/2 \)}, isso indica que o subnível \textcolor{red}{3d} está parcialmente preenchido. O número total de elétrons no nível de valência (camada \textcolor{red}{\( n = 3 \)}) é a soma dos elétrons nos subníveis \textcolor{red}{3s}, \textcolor{red}{3p} e \textcolor{red}{3d}:
+                                  \[
+                                      \textcolor{red}{3s^2 \ 3p^6 \ 3d^x}
+                                  \]
+                                  Vamos distribuir os elétrons no subnível \textcolor{red}{3d} até chegar no elétron com os números quanticos dados:
+                                  \input{orbital_3dx.tex}
+                                  Como o subnível \textcolor{red}{3d} pode ter no máximo \textcolor{red}{10 elétrons}, o número de elétrons no nível de valência varia entre \textcolor{red}{8} e \textcolor{red}{18}, dependendo de \textcolor{red}{\(x\)}.
+                            \item[] No caso específico em que o elétron de maior energia está no \textcolor{red}{3d} com \textcolor{red}{\( m_\ell = 1 \)} e \textcolor{red}{\( m_s = -1/2 \)}, ao contar os elétrons até chegar nesse elétron, obtemos \textcolor{red}{9 elétrons} para \textcolor{red}{x}:
+                                  \[
+                                      \textcolor{red}{2 + 6 + 9 = 17}
+                                  \]
+                        \end{itemize}
+                        Portanto, o número de elétrons no nível de valência desse átomo é \textcolor{red}{17 elétrons}.
+                    }
+          \end{enumerate}
+
+    \item A luz de três diferentes lasers (A, B e C), cada uma com comprimento de onda diferente, iluminou a mesma superfície metálica. O laser C não produziu fotoelétrons. Os lasers A e B produziram fotoelétrons, mas os fotoelétrons produzidos pelo laser B tinham uma velocidade maior que os produzidos pelo laser A. Disponha os lasers em ordem decrescente de comprimento de onda e justifique sua resposta.
+
+    \item Um átomo de hidrogênio está em um estado excitado com \( n = 2 \), com uma energia \( E_2 = -3,4 \) eV. Ocorre uma transição para o estado \( n = 1 \), com energia \( E_1 = -13,6 \) eV, e um fóton é emitido. Qual a frequência da radiação emitida em Hz? (Dados: \( 1 \) eV = \( 1,6 \times 10^{-19} \) J).
+
+
+    \item Considerando as regras de algarismos significativos responda:
+
+          \begin{enumerate}
+              \item[a)] Um recipiente contendo amostra de água a \( 25^\circ C \) tem \( 234,9 \)g. A densidade para esta amostra de água nesta temperatura é dada como \( 0,99707g \cdot mL\) \textsuperscript{-1}. Estabeleça o volume da amostra de água no recipiente. Forneça a resposta expressando o resultado com o número correto de algarismos significativos.
+              \item[b)] Nas operações vistas a seguir, arredonde as respostas para que contenham o número correto de algarismos significativos. Apresente as respostas com as unidades corretas.
+                    \begin{enumerate}
+                        \item[I)] \( (29,38 \pm 0,04) / (0,105 \pm 1,073) \)
+                        \item[II)] \( (1,42 \times 10^2) \times (0,030 \text{mL}) / (6,478 \text{mL}) \times (40,0 \text{mL}) \)
+                    \end{enumerate}
+          \end{enumerate}
+\end{enumerate}
+
+\end{document}
