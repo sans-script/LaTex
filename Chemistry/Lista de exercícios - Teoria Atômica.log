@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  20 FEB 2025 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  11 MAR 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/sans/LaTex/Chemistry I/p1"
-(/home/sans/LaTex/Chemistry I/p1.tex
+**"/home/sans/LaTex/Chemistry/Lista de exercícios - Teoria Atômica"
+(/home/sans/LaTex/Chemistry/Lista de exercícios - Teoria Atômica.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -766,8 +766,8 @@ Package: modiagram 2020/11/08 v0.3a easy creation of molecular orbital diagrams
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 5.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./p1.aux)
-\openout1 = `p1.aux'.
+) (./Lista de exercícios - Teoria Atômica.aux)
+\openout1 = `"Lista de exercícios - Teoria Atômica.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -849,33 +849,36 @@ Package siunitx Warning: Tabular column type "S" overwritten with siunitx
 File: translations-basic-dictionary-brazil.trsl (brazil translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 5.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 22.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 11.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 22.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 11.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 22.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 11.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 22.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 22.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 24.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -886,7 +889,126 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-] (./orbital_3p5.tex
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] (./orbital_4d2_4d7.tex
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 2$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OT1/ztmcm/m/n/12 +1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OT1/ztmcm/m/n/12 +2$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 2$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OT1/ztmcm/m/n/12 +1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OT1/ztmcm/m/n/12 +2$| 
+ []
+
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (./linus_diagram.tex)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 434.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 434.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 434.
+ (./orbital_4f.tex) (./orbital_2p.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9] (./orbital_2p2.tex
 Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
 []|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
  []
@@ -896,7 +1018,17 @@ Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
 []|$\OT1/ztmcm/m/n/12 +1$| 
  []
 
-) (./orbital_3dx.tex
+)
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+
+ []
+
+(./orbital_4f12.tex
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 3$| 
+ []
+
+
 Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
 []|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 2$| 
  []
@@ -916,6 +1048,50 @@ Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
 []|$\OT1/ztmcm/m/n/12 +2$| 
  []
 
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OT1/ztmcm/m/n/12 +3$| 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10] (./orbital_6p1_6p4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 559--1
+
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OT1/ztmcm/m/n/12 +1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 28--28
+[]|$\OT1/ztmcm/m/n/12 +1$| 
+ []
+
 )
 
 
@@ -925,7 +1101,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
+[11]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -934,25 +1110,97 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (./p1.aux)
+[12]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14] (./orbital_4f9.tex
+Underfull \hbox (badness 10000) in paragraph at lines 772--1
+
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 3$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 2$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OT1/ztmcm/m/n/12 +1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OT1/ztmcm/m/n/12 +2$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OT1/ztmcm/m/n/12 +3$| 
+ []
+
+) (./orbital_3p6.tex
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OMS/ztmcm/m/n/12 ^^@\OT1/ztmcm/m/n/12 1$| 
+ []
+
+
+Overfull \hbox (1.0975pt too wide) in paragraph at lines 13--13
+[]|$\OT1/ztmcm/m/n/12 +1$| 
+ []
+
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15] (./Lista de exercícios - Teoria Atômica.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25407 strings out of 473201
- 554911 string characters out of 5716127
- 1153880 words of memory out of 5000000
- 48205 multiletter control sequences out of 15000+600000
- 584976 words of font info for 83 fonts, out of 8000000 for 9000
+ 25981 strings out of 473201
+ 567051 string characters out of 5716127
+ 1178291 words of memory out of 5000000
+ 48739 multiletter control sequences out of 15000+600000
+ 611350 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,18n,104p,7701b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on p1.pdf (3 pages, 71233 bytes).
+ 104i,24n,104p,7781b,1119s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Lista de exercícios - Teoria Atômica.pdf" (15 pages, 123880 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 19 words of extra memory for PDF output out of 10000 (max. 10000000)
 

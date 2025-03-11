@@ -8,15 +8,22 @@
 \usepackage[dvipsnames]{xcolor}        % Para cores
 \usepackage{thmtools}                  % Para definições de teoremas
 \usepackage{titlesec}                  % Para personalizar títulos de seções
-\usepackage{booktabs}                  % Adicione isso no preâmbulo
+\usepackage{booktabs}                  % Para tabelas
 \usepackage{tabularx}                  % Para tabelas com largura ajustável
 \usepackage{mathptmx}                  % Para usar Times New Roman
-\usepackage{enumitem} % Para personalizar a lista
-\usepackage{cancel} % Para cancelar termos em equações
-\usepackage[version=4]{mhchem} % Para escrever fórmulas químicas
-\usepackage{chemfig} % Para desenhar moléculas
-\usepackage{colortbl} % Para colorir células de tabelas
-
+\usepackage{enumitem}                  % Para personalizar a lista
+\usepackage{cancel}                    % Para cancelar termos em equações
+\usepackage[version=4]{mhchem}        % Para escrever fórmulas químicas
+\usepackage{chemfig}                   % Para desenhar moléculas
+\usepackage{colortbl}                  % Para colorir células de tabelas
+\usepackage{multicol}                  % Para dividir o texto em colunas
+\usepackage{tikz}                      % Para desenhar gráficos
+\usepackage{pgf-spectra}               % Para espectros
+\usepackage{siunitx}                   % Para formatação de unidades
+\usepackage{array}                     % Para manipulação de arrays
+\usepackage{cellspace}                 % Para espaçamento em células
+\renewcommand{\arraystretch}{1.5}      % Ajusta a altura das células
+\usepackage{modiagram}                 % Para diagramas
 
 % Configuração das margens
 \geometry{top=2cm, bottom=2cm, left=1cm, right=1cm}
@@ -28,11 +35,11 @@
 {\normalfont\large\bfseries}{\thesubsection}{0.3em}{}
 
 \setcounter{secnumdepth}{0}  % Remove a numeração de seções
-
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+\definecolor{indigo}{rgb}{0.29, 0.0, 0.51}
 
 % Configura cabeçalhos e rodapés
 \pagestyle{fancy}
 \fancyhf{} % Limpa cabeçalhos e rodapés
-\fancyhead[R]{Lista de Exercícios - Reações Químicas} % Nome à direita no cabeçalho
 \fancyhead[L]{Alexandre Santos}
 \fancyfoot[R]{\thepage} % Número da página à direita no rodapé

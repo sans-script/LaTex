@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  16 FEB 2025 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  11 MAR 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/sans/LaTex/Chemistry I/Lista de exercícios - Algarismos Significativos"
-(/home/sans/LaTex/Chemistry I/Lista de exercícios - Algarismos Significativos.tex
+**"/home/sans/LaTex/Chemistry/Lista de exercícios - Algarismos Significativos"
+(/home/sans/LaTex/Chemistry/Lista de exercícios - Algarismos Significativos.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -641,6 +641,127 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \mult@nat@firstbox=\box118
 \colbreak@box=\box119
 \mc@col@check@num=\count340
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf-spectra/pgf-spectra.sty
+Package: pgf-spectra 07/07/2024 pgf-spectra v3.0.1a
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf-spectra/pgf-spectra.data.NIST.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf-spectra/pgf-spectra.input.library.tex)
+\pgfspectra@counta=\count341
+\pgfspectra@countb=\count342
+\pgfspectra@countc=\count343
+\pgfspectra@countd=\count344
+\pgfspectrawl=\dimen317
+\pgfspectra@i=\dimen318
+\@pgfspectra@gamma=\dimen319
+\wlc@lorr=\dimen320
+\wlc@lorg=\dimen321
+\wlc@lorb=\dimen322
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-01-21 v3.4.4 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count345
+\l__siunitx_number_exponent_fixed_int=\count346
+\l__siunitx_number_min_decimal_int=\count347
+\l__siunitx_number_min_integer_int=\count348
+\l__siunitx_number_round_precision_int=\count349
+\l__siunitx_number_lower_threshold_int=\count350
+\l__siunitx_number_upper_threshold_int=\count351
+\l__siunitx_number_group_first_int=\count352
+\l__siunitx_number_group_size_int=\count353
+\l__siunitx_number_group_minimum_int=\count354
+\l__siunitx_angle_tmp_dim=\dimen323
+\l__siunitx_angle_marker_box=\box120
+\l__siunitx_angle_unit_box=\box121
+\l__siunitx_compound_count_int=\count355
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count356
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box122
+\l__siunitx_table_tmp_dim=\dimen324
+\l__siunitx_table_column_width_dim=\dimen325
+\l__siunitx_table_integer_box=\box123
+\l__siunitx_table_decimal_box=\box124
+\l__siunitx_table_uncert_box=\box125
+\l__siunitx_table_before_box=\box126
+\l__siunitx_table_after_box=\box127
+\l__siunitx_table_before_dim=\dimen326
+\l__siunitx_table_carry_dim=\dimen327
+\l__siunitx_unit_tmp_int=\count357
+\l__siunitx_unit_position_int=\count358
+\l__siunitx_unit_total_int=\count359
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/cellspace/cellspace.sty
+Package: cellspace 2022/01/04 v1.9.0 Spacing table cells (JN)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks54
+\XKV@tempa@toks=\toks55
+)
+\XKV@depth=\count360
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\cellspacetoplimit=\dimen328
+\cellspacebottomlimit=\dimen329
+\cellspace@firstht=\dimen330
+\cellspace@lastdp=\dimen331
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/modiagram/modiagram.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen332
+))
+Package: modiagram 2020/11/08 v0.3a easy creation of molecular orbital diagrams
+\l__modiagram_tmpa_dim=\dimen333
+\l__modiagram_AO_width_dim=\dimen334
+\l__modiagram_left_atom_position_dim=\dimen335
+\l__modiagram_inter_atom_distance_dim=\dimen336
+\l__modiagram_molecule_position_dim=\dimen337
+\g__modiagram_min_energy_dim=\dimen338
+\g__modiagram_max_energy_dim=\dimen339
+\l__modiagram_energy_gain_dim=\dimen340
+\l__modiagram_energy_loss_dim=\dimen341
+\l__modiagram_atom_xshift_dim=\dimen342
+\l__modiagram_atom_one_s_dim=\dimen343
+\l__modiagram_atom_left_one_s_dim=\dimen344
+\l__modiagram_atom_right_one_s_dim=\dimen345
+\l__modiagram_atom_two_s_dim=\dimen346
+\l__modiagram_atom_left_two_s_dim=\dimen347
+\l__modiagram_atom_right_two_s_dim=\dimen348
+\l__modiagram_atom_two_p_dim=\dimen349
+\l__modiagram_atom_left_two_p_dim=\dimen350
+\l__modiagram_atom_right_two_p_dim=\dimen351
+\l__modiagram_atom_px_shift_dim=\dimen352
+\l__modiagram_atom_py_shift_dim=\dimen353
+\l__modiagram_atom_pz_shift_dim=\dimen354
+\l__modiagram_molecule_one_sigma_dim=\dimen355
+\l__modiagram_molecule_one_sigmas_dim=\dimen356
+\l__modiagram_molecule_two_sigma_dim=\dimen357
+\l__modiagram_molecule_two_sigmas_dim=\dimen358
+\l__modiagram_molecule_two_psigma_dim=\dimen359
+\l__modiagram_molecule_two_psigmas_dim=\dimen360
+\l__modiagram_molecule_two_ppi_dim=\dimen361
+\l__modiagram_molecule_two_ppis_dim=\dimen362
+\l__modiagram_AO_dim=\dimen363
+\l__modiagram_AO_position_dim=\dimen364
+\l__modiagram_AO_px_shift_dim=\dimen365
+\l__modiagram_AO_py_shift_dim=\dimen366
+\l__modiagram_AO_pz_shift_dim=\dimen367
+\g__modiagram_AO_name_int=\count361
+\l_energy_axis_dim=\dimen368
 ))
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -699,17 +820,17 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count341
-\scratchdimen=\dimen317
-\scratchbox=\box120
-\nofMPsegments=\count342
-\nofMParguments=\count343
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count344
-\MPscratchDim=\dimen318
-\MPnumerator=\count345
-\makeMPintoPDFobject=\count346
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count362
+\scratchdimen=\dimen369
+\scratchbox=\box128
+\nofMPsegments=\count363
+\nofMParguments=\count364
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count365
+\MPscratchDim=\dimen370
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
+\everyMPtoPDFconversion=\toks57
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -719,6 +840,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package chemgreek Info: Activating mapping `default' on line 3.
 
+
+
+Package siunitx Warning: Tabular column type "S" overwritten with siunitx
+(siunitx)                definition.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 3.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 14.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -794,15 +924,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19308 strings out of 473201
- 378976 string characters out of 5716127
- 805260 words of memory out of 5000000
- 42168 multiletter control sequences out of 15000+600000
+ 25431 strings out of 473201
+ 555750 string characters out of 5716127
+ 1155913 words of memory out of 5000000
+ 48223 multiletter control sequences out of 15000+600000
  589842 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,12n,104p,546b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,12n,104p,7791b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Lista de exercícios - Algarismos Significativos.pdf" (4 pages, 82721 bytes).
+Output written on "Lista de exercícios - Algarismos Significativos.pdf" (4 pages, 82607 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
